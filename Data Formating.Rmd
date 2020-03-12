@@ -1,0 +1,15 @@
+---
+title: "Program Data Formating"
+output: html_notebook
+---
+
+# Purpose
+Client would like to reduce data entry into multiple excel spreadsheets while providing flexibility to create tables in multiple formats for printing. 
+
+
+## Additional Details
+Client currently maintains two excel sheets for nonprofit programs in Guilford County. One excel sheet is maintained for quick electronic reference and the other is maintained in a format better suited for printing. Maintaining both excel worksheets means double entry of data and correcting information in atleast two different locations.
+
+## Recommendation
+It is recommended that one Master Table of program information be created from which the subsets of this table can be created for electronic reference and for printed copies. This Master Table will be only location that needs to be updated and maintained as all other tables are a derivative of its information.
+
