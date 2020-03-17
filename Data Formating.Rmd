@@ -14,6 +14,14 @@ Client currently maintains two excel sheets for nonprofit programs in Guilford C
 It is recommended that one Master Table of program information be created from which the subsets of this table can be created for electronic reference and for printed copies. This Master Table will be only location that needs to be updated and maintained as all other tables are a derivative of its information.
 
 
+## libraries
+
+```{r}
+library(tidyverse)
+```
+
+
+
 
 ## Importing Data Table
 
@@ -47,6 +55,8 @@ ProgramList <- read_csv("ProgramList.csv",
 
 ```
 
+
+## Formating Table
 
 
 
