@@ -13,3 +13,46 @@ Client currently maintains two excel sheets for nonprofit programs in Guilford C
 ## Recommendation
 It is recommended that one Master Table of program information be created from which the subsets of this table can be created for electronic reference and for printed copies. This Master Table will be only location that needs to be updated and maintained as all other tables are a derivative of its information.
 
+
+
+## Importing Data Table
+
+```{r}
+library(readr)
+ProgramList <- read_csv("ProgramList.csv", 
+    col_types = cols(`Ages Served` = col_character(), 
+        `Alternative Address` = col_character(), 
+        `Contact Email` = col_character(), 
+        `Contact Person` = col_character(), 
+        `Domain Name` = col_character(), 
+        `Duration/Length of Service` = col_character(), 
+        `Eligibility Notes` = col_character(), 
+        `Evidence Based` = col_character(), 
+        Fax = col_character(), Fees = col_character(), 
+        `Location Eligibility` = col_character(), 
+        `Notes/Comments` = col_character(), 
+        `Office Hours` = col_character(), 
+        `Preferred Referral Type` = col_character(), 
+        `Program Duplication Permitted` = col_character(), 
+        `Referral Form Provided` = col_character(), 
+        `Referral Source Response Time` = col_character(), 
+        `Referral Type` = col_character(), 
+        `Schedule Availability` = col_character(), 
+        `Screening Tools Used:` = col_character(), 
+        `Service Factor` = col_character(), 
+        `Service Hours` = col_character(), 
+        `Service Hours Details` = col_character(), 
+        `Services Provided` = col_character(), 
+        Waitlist = col_character(), Zip = col_character()))
+
+```
+
+
+
+
+
+
+
+
+
+
